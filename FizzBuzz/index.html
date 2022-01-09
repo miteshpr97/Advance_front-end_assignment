@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+
+    <style>
+        body {
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: chocolate;
+           
+        }
+        .container {
+           margin: 40px auto;
+            width: 70%;
+            height: 600px;
+            background-color: rgb(251, 253, 253);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            gap: 1vw;;
+        }
+
+        .container >input {
+
+            padding: 8px 10px;
+            border: 3px solid black;
+            
+        }
+
+        .btn {
+            padding: 2px 15px;
+            border: 1.8px solid black;
+            font-size: 17px;
+            color: rgb(80, 69, 240);
+            background-color: coral;
+
+        }
+
+        .btn:hover {
+            color: crimson;
+            background-color: rgb(104, 243, 62);
+        }
+
+        #li {
+            color: darkred;
+            list-style: none;
+          
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 > FizzBuzz</h1>
+        <input type="number" id="inp_num" placeholder="Enter a number" />
+        <button onclick="btn()" class="btn">Submit</button>
+        <p id= "li"></p>
+    </div>
+
+
+    <script>
+
+        function btn() {
+           
+            var num = document.getElementById("inp_num").value;
+                if (num == "") {
+                    alert("enter any number");
+                }
+                for (i=1; i<=num;i++){
+                    var li_ref = document.createElement('li');
+                    li_ref.innerText = i;
+                
+                    if (i%3 == 0 && i%5 == 0){
+                    li_ref.innerText = "FIZZBUZZ";     
+                }
+                else if (i%5 == 0){
+                    li_ref.innerText = "BUZZ"; 
+                }
+                else if (i%3 == 0) {
+                    li_ref.innerText = "FIZZ";  
+                }
+                else {
+                    li_ref.innerText = i; 
+                }
+                let p_ref = document.getElementById("li");
+                    p_ref.appendChild(li_ref);
+            }
+
+        }
+
+
+    </script>
+    
+
+
+
+   
+    
+</body>
+</html>

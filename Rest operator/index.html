@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Finding the Minimum</title>
+    <style>
+        * {
+            margin: 50px;
+            background-color: #1edaf3;
+            font-style: italic;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #result {
+            margin: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Find the minimum using rest operator</h1>
+    <div class="container">
+        <h1 id="result"></h1>
+    </div>
+    <script>
+        let result = document.getElementById('result')
+
+        function minNumber(...min) {
+            let i = min;
+            let j = min.length;
+            minimum = i[j - 1];
+            while (j--) {
+                if (i[j] < minimum) {
+                    minimum = i[j];
+                }
+            }
+            return minimum;
+        }
+
+        result.innerText = minNumber(19, 9, 26, 14, 27, 13, 31, 24, 2)
+
+    </script>
+</body>
+
+</html>
