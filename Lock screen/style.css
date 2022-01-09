@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    body{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJJn6KP4sxo18H2I9gseyhiZbEslJ2WIMohw&usqp=CAU");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    /* pin generate css part */
+    .key-container{
+        width: 70vw;
+        height: 50vh;
+        text-align: center;
+        padding-top: 10vh;
+        margin-bottom: 5vh;
+        border-radius: 50px; 
+        background-color: rgb(238, 93, 93);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+       
+    }
+  .key{
+        padding: 15px;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        outline: none;
+        border-radius: 10px;
+        color: brown;
+        background-color: rgb(129, 241, 245);
+    }
+
+    #submit {
+        padding: 7px 36px;
+        border: 1px solid black;
+        outline: none;
+        border-radius: 5px;
+        background-color: cornflowerblue;
+        font-size: 17px;
+        font-family: cursive;
+        color: rgb(19, 18, 18);
+    }
+
+    #submit:hover {
+        background-color: crimson;
+    }
+
+
+    /* lock screen css part */
+
+
+
+    .container{
+        width: 27vw;
+        height: 80vh;
+        background: linear-gradient(110deg, rgb(245, 168, 168), rgb(189, 206, 212), orange);   
+        color:wheat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 50px;
+        margin-top: 50px;
+        
+        
+    }
+
+    .container {
+        display: none;
+    }
+
+    #input{
+        padding: 10px 35px;
+        background: none;
+        outline: none;
+        border: none;
+        text-align: center;
+        font-size: 25px;
+        
+      
+    }
+    .btn{
+        
+        width: 50px;
+        height: 50px;
+        background-color: transparent; 
+        border-color: rgb(191, 211, 216);
+        color:rgb(66, 66, 63);
+        font-weight: bolder;
+        font-size:xx-large;
+        border-radius: 100px;
+        border: 2px solid gray;
+        
+       
+    }
+    button:hover{
+        background-color: rgb(168, 208, 218);
+    }
+
+    .btn1 {
+        background-color: rgb(108, 114, 108);
+        width:10vw;
+        padding: 7px 4px; 
+        border-radius: 10px;
+        font-size: 19px;
+        outline: none;
+       
+    }
+
+
+
+
+
+    /* lock screen on part */
+
+    .homescreen{
+        display: none;
+    }
+
+
+
+    img{
+        width:90vw;
+        height:90vh;
+    }
+   
+    h1{
+        text-align: center;
+        color: white;
+    }

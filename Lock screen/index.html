@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>screenlock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="key-container" id="keycontainer">
+        <h1>Enter a 4 digit password to set lock </h1><br>
+        <input placeholder="Enter the Key here to set" type="text" class="key" id="key" maxlength="4" minlength="4" pattern="0,1,2,3,4,5,6,7,8,9"><br>
+        <button onclick="submit()" id="submit">OK</button>
+    </div>
+    <div  class="container">
+        <h1>Enter the Password!</h1>
+        <input id="input" placeholder="Enter the key here!"type="password" maxlength="4" minlength="4" pattern="0,1,2,3,4,5,6,7,8,9" >
+        <br>
+        <div class="buttons">
+            <button class="btn" onclick="number('1')">1</button>
+            <button class="btn" onclick="number('2')">2</button>
+            <button class="btn" onclick="number('3')">3</button><br><br/>
+            <button class="btn" onclick="number('4')">4</button>
+            <button class="btn" onclick="number('5')">5</button>
+            <button class="btn" onclick="number('6')">6</button><br><br/>
+            <button class="btn" onclick="number('7')">7</button>
+            <button class="btn" onclick="number('8')">8</button>
+            <button class="btn" onclick="number('9')">9</button><br><br/>
+            <button class="btn" onclick="number('*')">*</button>
+            <button class="btn" onclick="number('0')">0</button>
+            <button class="btn" onclick="number('#')">#</button><br><br><br/>
+            <button id="btn1" class="btn1" onclick="unlock()">OK</button>
+        </div>
+    </div>
+    <div class="homescreen">
+        <h1>Screen unlocked!</h1>
+        <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+    </div>
+
+    <script src="script.js"></script>
+ 
+</body>
+</html>
