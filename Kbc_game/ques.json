@@ -1,0 +1,50 @@
+[
+    {
+        "q":"Rath Yatra is famous festival at?",
+       "options" :[{"optionA":"Ayodhya"},
+        {"optionB":"Mathura"},
+        {"optionC":"Dwaraka"},
+        {"optionD":"Puri"}],
+        "Ans":"Puri"
+    },
+    {
+        "q":"Which of these are names of national parks located in Madhya Pradesh?",
+       "options": [{"optionA":"Krishna and Kanhaiya"},
+        {"optionB":"Kanha and Madhav"},
+        {"optionC":"Ghanshyam and Murari"},
+        {"optionD":"Girdhar and Gopi"}],
+        "Ans":"Kanha and Madhav"
+    },
+    {
+        "q":"In which of these two sports is the term 'free hit' used?",
+       "options":[ { "optionA":"Football, Squash"},
+        {"optionB":"Badminton, Tennis"},
+        {"optionC":"Badminton, Cricket"},
+        {"optionD":"Hockey, Cricket"}],
+        "Ans":"Hockey, Cricket"
+    },
+    {
+        "q":"Which of these sport requries you to shot out a word loudly during play?",
+        "options":[{"optionA":"Ludo"},
+        {"optionB":"Kho-Kho"},
+        {"optionC":"Playing cards"},
+        {"optionD":"Chess"}],
+        "Ans":"Kho-Kho"
+    },
+    {
+        "q":" Which of these countries is larger than India in territorial space",
+        "options":[{"optionA":"Australia"},
+        {"optionB":" Argentina"},
+        {"optionC":" Kazakhstan"},
+        {"optionD":"UAE"}],
+        "Ans":"Australia"
+    },
+    {
+        "q":"In which of the following events will the fastest person win?",
+        "options":[{"optionA":"Marathon"},
+            {"optionB":"Diving"},
+            {"optionC":"Weightlifting"},
+            {"optionD":"Shot Put"}],
+        "Ans":"Marathon"
+    }
+]

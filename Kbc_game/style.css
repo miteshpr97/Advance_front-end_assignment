@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background:url("https://www.sarita.in/wp-content/uploads/2017/09/kaun-banega-crorepati-wallpapers-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.container{
+    width: 980px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:30px auto;   
+    background: rgba(11, 24, 48, 0.8); 
+    border-radius: 5px;
+    color: white;   
+    font-size: 30px;
+    padding: 30px;
+    gap: 5vh;
+    max-width: 100%;
+  
+    
+}
+
+.question{
+    background-color: #5c79fc;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color:#fff;
+}
+
+.button{
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+    width: 100%;
+    height: 180px;
+    padding: 30px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.button > button {
+    background-color: rgb(95, 118, 252);
+    width: 100%;
+    padding: 23px 28px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px; 
+    color: #fff;
+    font-size: 20px;
+    font-size: large;
+}
+
+
+button:hover{
+    background-color: #fff;
+    color:#34568B;
+}
+
+.progress{
+    height: 5vh;
+    background-color: green;
+    width: 4vw;
+   
+
+}
+.progress-bar{
+    
+    width: 85.4vw;
+    margin-left: 100px;
+    background-color: white;
+}
+
+#timer{
+    color: red;
+}
+
+.result{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border: 1px solid grey;
+    background-color: #5B5EA6;
+    display: none;
+    font-size: larger;
+    color: white;
+} 
+
+.play-again{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.kbc{
+    border: 2px solid green;
+    text-decoration: none;
+    color: #111;
+    padding: 10px;
+    border-radius: 10px;
+    background: #92A8D1;
+
+}
+
+.again{
+    font-size: 30px;
+}
+.again:hover{
+    background: white;
+    color: #2e6bdd;
+}
+
+
+
+
+
